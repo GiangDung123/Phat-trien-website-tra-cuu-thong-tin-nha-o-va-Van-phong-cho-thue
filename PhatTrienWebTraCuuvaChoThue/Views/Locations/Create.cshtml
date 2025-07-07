@@ -1,0 +1,49 @@
+﻿@model PhatTrienWebTraCuuvaChoThue.Models.Location
+
+@{
+    ViewData["Title"] = "Thêm địa điểm mới";
+}
+
+<h2 class="mb-4 text-primary"><i class="bi bi-geo-alt-fill"></i> @ViewData["Title"]</h2>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Province" class="form-label"><i class="bi bi-globe2"></i> Tỉnh / Thành phố</label>
+                <input asp-for="Province" class="form-control" />
+                <span asp-validation-for="Province" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="District" class="form-label"><i class="bi bi-building"></i> Quận / Huyện</label>
+                <input asp-for="District" class="form-control" />
+                <span asp-validation-for="District" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Ward" class="form-label"><i class="bi bi-signpost"></i> Phường / Xã</label>
+                <input asp-for="Ward" class="form-control" />
+                <span asp-validation-for="Ward" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="Street" class="form-label"><i class="bi bi-road"></i> Đường / Phố</label>
+                <input asp-for="Street" class="form-control" />
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success"><i class="bi bi-plus-circle"></i> Thêm</button>
+            <a asp-action="Index" class="btn btn-secondary"><i class="bi bi-arrow-left-circle"></i> Quay lại</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

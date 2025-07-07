@@ -1,0 +1,25 @@
+﻿@model PhatTrienWebTraCuuvaChoThue.Models.Category
+
+@{
+    ViewData["Title"] = "Chi tiết danh mục";
+}
+
+<h2 class="mb-4 text-primary">@ViewData["Title"]</h2>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Tên danh mục</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+        </dl>
+
+        <div class="mt-4 d-flex gap-2">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">
+                <i class="bi bi-pencil-square"></i> Sửa
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách
+            </a>
+        </div>
+    </div>
+</div>

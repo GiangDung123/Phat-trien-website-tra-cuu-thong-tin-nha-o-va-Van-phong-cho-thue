@@ -1,0 +1,27 @@
+﻿@model PhatTrienWebTraCuuvaChoThue.Models.Category
+
+@{
+    ViewData["Title"] = "Xoá danh mục";
+}
+
+<h2 class="mb-3 text-danger"><i class="bi bi-trash"></i> @ViewData["Title"]</h2>
+
+<div class="card shadow-sm">
+    <div class="card-body">
+        <h5 class="mb-3">Bạn có chắc chắn muốn xoá danh mục này?</h5>
+        <dl class="row">
+            <dt class="col-sm-3">Tên danh mục</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Xoá
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Huỷ
+            </a>
+        </form>
+    </div>
+</div>

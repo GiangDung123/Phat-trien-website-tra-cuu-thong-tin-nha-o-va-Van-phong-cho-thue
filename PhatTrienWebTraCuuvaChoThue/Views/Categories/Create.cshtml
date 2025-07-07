@@ -1,0 +1,34 @@
+﻿@model PhatTrienWebTraCuuvaChoThue.Models.Category
+
+@{
+    ViewData["Title"] = "Thêm danh mục";
+}
+
+<h2 class="mb-4 text-success"><i class="bi bi-plus-square"></i> @ViewData["Title"]</h2>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Tên danh mục</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-success">
+                <i class="bi bi-save"></i> Lưu
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Quay lại
+            </a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

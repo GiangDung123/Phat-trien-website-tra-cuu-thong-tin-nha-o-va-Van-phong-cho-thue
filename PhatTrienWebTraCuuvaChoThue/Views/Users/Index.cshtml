@@ -1,0 +1,48 @@
+﻿@model IEnumerable<PhatTrienWebTraCuuvaChoThue.Models.User>
+@{
+    ViewData["Title"] = "Danh sách người dùng";
+}
+
+<h2 class="mb-4 text-primary"><i class="bi bi-people-fill"></i> @ViewData["Title"]</h2>
+
+<table class="table table-hover table-striped align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Vai trò</th>
+            <th class="text-center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.FullName</td>
+                <td>@user.Email</td>
+                <td>
+                    @if (user.Role == "Admin")
+                    {
+                        <span class="badge bg-danger">Admin</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">Người dùng</span>
+                    }
+                </td>
+                <td class="text-center">
+                    <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-sm btn-warning me-1">
+                        <i class="bi bi-pencil-square"></i> Sửa
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-sm btn-danger" onclick="return confirm('Bạn có chắc muốn xoá?');">
+                        <i class="bi bi-trash-fill"></i> Xoá
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary mt-3">
+    <i class="bi bi-person-plus-fill"></i> Thêm người dùng
+</a>

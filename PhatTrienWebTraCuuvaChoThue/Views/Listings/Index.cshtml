@@ -1,0 +1,60 @@
+﻿@model IEnumerable<PhatTrienWebTraCuuvaChoThue.Models.Listing>
+
+@{
+    ViewData["Title"] = "Danh sách tin đăng";
+    var currentUserId = Context.Session.GetInt32("UserId");
+    var currentRole = Context.Session.GetString("Role");
+}
+
+<h2 class="mb-4 text-primary"><i class="bi bi-house-door-fill"></i> @ViewData["Title"]</h2>
+
+<table class="table table-hover table-bordered shadow-sm">
+    <thead class="table-light">
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Giá</th>
+            <th>Diện tích</th>
+            <th>Danh mục</th>
+            <th>Vị trí</th>
+            <th>Người đăng</th>
+            <th class="text-center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Price.ToString("N0") VNĐ</td>
+                <td>@item.Area m²</td>
+                <td>@item.Category?.Name</td>
+                <td>@item.Location?.Province</td>
+                <td>@item.Owner?.FullName</td>
+                <td class="text-center">
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info me-1">
+                        <i class="bi bi-eye"></i> Xem
+                    </a>
+
+                    @if (currentRole == "Admin" || item.OwnerId == currentUserId)
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-warning me-1">
+                            <i class="bi bi-pencil"></i> Sửa
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">
+                            <i class="bi bi-trash"></i> Xoá
+                        </a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (currentUserId != null)
+{
+    <a class="btn btn-success" asp-action="Create"><i class="bi bi-plus-circle"></i> Đăng tin mới</a>
+}
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+}

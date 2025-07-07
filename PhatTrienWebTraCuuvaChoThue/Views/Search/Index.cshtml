@@ -1,0 +1,74 @@
+﻿@model IEnumerable<PhatTrienWebTraCuuvaChoThue.Models.Listing>
+@{
+    ViewData["Title"] = "Tìm kiếm bất động sản";
+}
+
+<h2 class="mb-4"><i class="bi bi-search"></i> @ViewData["Title"]</h2>
+
+<form method="get" class="row gy-2 gx-3 align-items-center mb-4">
+    <div class="col-md-2">
+        <input type="text" name="keyword" placeholder="🔍 Từ khoá..." class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <select name="categoryId" asp-items="@(ViewData["Categories"] as SelectList)" class="form-select">
+            <option value="">-- Danh mục --</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <select name="locationId" asp-items="@(ViewData["Locations"] as SelectList)" class="form-select">
+            <option value="">-- Vị trí --</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <input type="number" name="minPrice" placeholder="Giá từ" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <input type="number" name="maxPrice" placeholder="Đến" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <input type="number" name="minArea" placeholder="Diện tích từ" class="form-control" />
+    </div>
+    <div class="col-md-2 mt-2">
+        <button type="submit" class="btn btn-primary w-100">
+            <i class="bi bi-search"></i> Tìm kiếm
+        </button>
+    </div>
+</form>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">Không tìm thấy tin đăng phù hợp.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0">
+                    @if (item.ListingImages != null && item.ListingImages.Any())
+                    {
+                        <img src="@item.ListingImages.First().ImageUrl" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                    }
+                    else
+                    {
+                        <img src="~/img/no-image.png" class="card-img-top" style="height: 200px; object-fit: cover;" />
+                    }
+
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="text-muted mb-1">
+                            <i class="bi bi-currency-dollar"></i> @item.Price.ToString("N0") VNĐ &nbsp;
+                            <i class="bi bi-aspect-ratio"></i> @item.Area m²
+                        </p>
+                        <p class="mb-1"><i class="bi bi-tag-fill"></i> <strong>@item.Category?.Name</strong></p>
+                        <p class="mb-3"><i class="bi bi-geo-alt-fill"></i> @item.Location?.Province</p>
+                        <a asp-controller="Listings" asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-primary w-100">
+                            <i class="bi bi-eye-fill"></i> Xem chi tiết
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

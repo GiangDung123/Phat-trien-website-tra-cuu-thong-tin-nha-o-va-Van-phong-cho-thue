@@ -1,0 +1,131 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var name = HttpContextAccessor.HttpContext?.Session.GetString("FullName");
+    var role = HttpContextAccessor.HttpContext?.Session.GetString("Role");
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Tra cứu Bất động sản</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PhatTrienWebTraCuuvaChoThue.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-primary" asp-controller="Home" asp-action="Index">
+                    <i class="bi bi-building"></i> Tra cứu BĐS
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @if (!string.IsNullOrEmpty(name) && role == "User")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Home" asp-action="Index"><i class="bi bi-house"></i> Trang chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Search" asp-action="Index"><i class="bi bi-search"></i> Tìm kiếm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Listings" asp-action="Index"><i class="bi bi-folder"></i> Tin của tôi</a>
+                            </li>
+                        }
+                        @if (role == "Admin")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold text-dark" asp-controller="Listings" asp-action="Index">
+                                    <i class="bi bi-folder2-open"></i> Tin đăng
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold text-dark" asp-controller="Users" asp-action="Index">
+                                    <i class="bi bi-people-fill"></i> Người dùng
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold text-dark" asp-controller="Categories" asp-action="Index">
+                                    <i class="bi bi-tags-fill"></i> Danh mục
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold text-dark" asp-controller="Locations" asp-action="Index">
+                                    <i class="bi bi-geo-alt-fill"></i> Vị trí
+                                </a>
+                            </li>
+                        }
+
+
+
+                    </ul>
+
+                    <!-- 🔍 Search bar -->
+                    <form class="d-flex me-3" asp-controller="Search" asp-action="Index" method="get">
+                        <input class="form-control me-2" type="search" name="keyword" placeholder="Tìm kiếm..." />
+                        <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+
+                    <ul class="navbar-nav">
+                        @if (string.IsNullOrEmpty(name))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Users" asp-action="Login"><i class="bi bi-box-arrow-in-right"></i> Đăng nhập</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Users" asp-action="Register"><i class="bi bi-person-plus"></i> Đăng ký</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <!-- 👤 Dropdown user -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+                                    <i class="bi bi-person-circle"></i> @name (@role)
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a class="dropdown-item" asp-controller="Users" asp-action="Profile"><i class="bi bi-person-lines-fill"></i> Thông tin</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Users" asp-action="ForgotPassword"><i class="bi bi-key"></i> Đổi mật khẩu</a></li>
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li><a class="dropdown-item text-danger" asp-controller="Users" asp-action="Logout"><i class="bi bi-box-arrow-right"></i> Đăng xuất</a></li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <main role="main" class="pb-4">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top text-muted py-3 bg-light">
+        <div class="container text-center">
+            &copy; 2025 - Website tra cứu bất động sản
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

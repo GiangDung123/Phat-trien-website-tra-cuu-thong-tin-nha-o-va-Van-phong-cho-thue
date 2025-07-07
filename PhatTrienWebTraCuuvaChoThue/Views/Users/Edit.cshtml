@@ -1,0 +1,52 @@
+﻿@model PhatTrienWebTraCuuvaChoThue.Models.User
+@{
+    ViewData["Title"] = "Sửa người dùng";
+}
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-6">
+        <h2 class="text-primary mb-4 text-center">
+            <i class="bi bi-person-lines-fill"></i> @ViewData["Title"]
+        </h2>
+
+        <form asp-action="Edit" method="post">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="form-group mb-3">
+                <label asp-for="FullName" class="form-label"><i class="bi bi-person-fill"></i> Họ tên</label>
+                <input asp-for="FullName" class="form-control" placeholder="Nhập họ tên" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label"><i class="bi bi-envelope-fill"></i> Email</label>
+                <input asp-for="Email" class="form-control" placeholder="example@gmail.com" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mb-4">
+                <label asp-for="Role" class="form-label"><i class="bi bi-person-gear"></i> Vai trò</label>
+                <select asp-for="Role" class="form-control">
+                    <option value="User">Người dùng</option>
+                    <option value="Admin">Admin</option>
+                </select>
+                <span asp-validation-for="Role" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-save"></i> Lưu
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Huỷ
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

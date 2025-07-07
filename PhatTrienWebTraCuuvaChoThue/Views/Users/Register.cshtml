@@ -1,0 +1,51 @@
+﻿@model PhatTrienWebTraCuuvaChoThue.Models.User
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+}
+
+<div class="row justify-content-center mt-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0"><i class="fas fa-user-plus me-2"></i>Đăng ký tài khoản</h4>
+            </div>
+            <div class="card-body">
+                <form asp-action="Register" method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="FullName" class="form-label"><i class="fas fa-user me-1"></i>Họ tên</label>
+                        <input asp-for="FullName" class="form-control" />
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="Email" class="form-label"><i class="fas fa-envelope me-1"></i>Email</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label class="form-label"><i class="fas fa-lock me-1"></i>Mật khẩu</label>
+                        <input name="PasswordHash" type="password" class="form-control" required />
+                    </div>
+
+                    <div class="d-grid mb-2">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-user-plus me-1"></i> Đăng ký
+                        </button>
+                    </div>
+
+                    <div class="text-center">
+                        <a asp-action="Login" class="btn btn-link"><i class="fas fa-sign-in-alt me-1"></i>Đã có tài khoản? Đăng nhập</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

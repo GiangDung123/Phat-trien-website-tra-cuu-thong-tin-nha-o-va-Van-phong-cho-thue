@@ -1,0 +1,772 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\listingimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\listingimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\listing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\controllers\\listingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\categories\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\listings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\listings\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\listings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\listings\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\listings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\listings\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\listings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\listings\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\listings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\listings\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\locations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\locations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\locations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\locations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\locations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\locations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\views\\users\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\views\\users\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|d:\\a-laptrinhbackend\\dung\\phattrienwebtracuuvachothue\\phattrienwebtracuuvachothue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72A173EB-BBAB-4ACB-8360-3AE2D13489A9}|PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue.csproj|solutionrelative:phattrienwebtracuuvachothue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ListingImage.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\ListingImage.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\ListingImage.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\ListingImage.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\ListingImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:59:17.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Location.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\Location.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\Location.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\Location.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:01:10.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\PasswordHelper.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\PasswordHelper.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:12:59.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\User.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\User.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\User.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:09:26.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:42:55.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAALAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:56:50.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Controllers\\SearchController.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:03:11.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Controllers\\LocationsController.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:00:24.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Listing.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\Listing.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\Listing.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\Listing.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\Listing.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA0wC0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T18:37:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T01:24:59.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\Category.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\Category.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T03:16:19.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T03:16:22.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListingsController.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\ListingsController.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Controllers\\ListingsController.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\ListingsController.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Controllers\\ListingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:01:12.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:58:13.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Models\\AppDbContext.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T15:41:45.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:03:53.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Delete.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Delete.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T23:53:33.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:31:20.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:38:57.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:39:58.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Details.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Details.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Details.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:41:04.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:43:57.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Create.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Create.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Create.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:43:22.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Index.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:29:01.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Edit.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Edit.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:30:46.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Details.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Details.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Details.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:30:45.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Delete.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Delete.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:31:27.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T01:23:02.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Details.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Details.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Details.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAqwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:20:40.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Create.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Create.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Create.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Listings\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T16:29:27.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Edit.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Edit.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T02:19:37.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:25:43.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Delete.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Delete.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Delete.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:41:39.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:41:01.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Register.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Register.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Register.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Register.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:17:13.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Profile.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Profile.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Profile.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Profile.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:18:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Login.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Login.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Login.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:17:53.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Search\\Index.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Search\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:03:34.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Index.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Locations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:02:01.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:37:16.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Views\\Users\\ForgotPassword.cshtml",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Views\\Users\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-06T17:43:45.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-07T01:52:19.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Program.cs",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\Program.cs",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\Program.cs",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:38:18.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\appsettings.json",
+              "RelativeDocumentMoniker": "PhatTrienWebTraCuuvaChoThue\\appsettings.json",
+              "ToolTip": "D:\\A-LapTrinhBackend\\Dung\\PhatTrienWebTraCuuvaChoThue\\PhatTrienWebTraCuuvaChoThue\\appsettings.json",
+              "RelativeToolTip": "PhatTrienWebTraCuuvaChoThue\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-06T15:38:36.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
